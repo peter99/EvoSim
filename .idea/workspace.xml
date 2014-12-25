@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee35fb43-5c31-463e-be9d-e38b8281215a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonoCreature.java" afterPath="$PROJECT_DIR$/src/MonoCreature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonoHybrid.java" afterPath="$PROJECT_DIR$/src/MonoHybrid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EvolutionSimulator.iws" />
@@ -42,13 +42,13 @@
       <file leaf-file-name="MonoHybrid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61432505" vertical-offset="523" max-vertical-offset="1445">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.4738292" vertical-offset="625" max-vertical-offset="1445">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#733#734#0" expanded="true" />
                 <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#4836#4837#0" expanded="true" />
-                <element signature="e#4855#4856#0" expanded="true" />
+                <element signature="e#4820#4821#0" expanded="true" />
+                <element signature="e#4839#4840#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -441,7 +441,7 @@
       <workItem from="1419243488575" duration="612000" />
       <workItem from="1419257749842" duration="2277000" />
       <workItem from="1419356072232" duration="25000" />
-      <workItem from="1419520993328" duration="2674000" />
+      <workItem from="1419520993328" duration="3101000" />
     </task>
     <task id="LOCAL-00001" summary="Reduced code length.">
       <created>1419521608387</created>
@@ -455,11 +455,17 @@
       <option name="project" value="LOCAL" />
       <updated>1419522510282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated methods, old bugs resolved. Maybe major bugs exist even now. Just the buffer remains in MonoHybrid class.">
+      <created>1419523727304</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1419523727304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26347000" />
+    <option name="totallyTimeSpent" value="26774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -508,7 +514,8 @@
     </option>
     <MESSAGE value="Reduced code length." />
     <MESSAGE value="Updated methods, old bugs resolved, new bugs created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated methods, old bugs resolved, new bugs created" />
+    <MESSAGE value="Updated methods, old bugs resolved. Maybe major bugs exist even now. Just the buffer remains in MonoHybrid class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated methods, old bugs resolved. Maybe major bugs exist even now. Just the buffer remains in MonoHybrid class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -536,8 +543,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -567,8 +574,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -598,8 +605,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -629,8 +636,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,8 +667,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -691,8 +698,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,8 +729,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,8 +760,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,8 +791,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,8 +822,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -846,8 +853,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,8 +884,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,8 +915,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -939,8 +946,8 @@
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,13 +980,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61432505" vertical-offset="523" max-vertical-offset="1445">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.4738292" vertical-offset="625" max-vertical-offset="1445">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#4836#4837#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
           </folding>
         </state>
       </provider>
