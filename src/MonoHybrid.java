@@ -28,10 +28,6 @@ public class MonoHybrid {
             }
             System.out.println("Gamete " + i + " is " + gamete[i]);
         }
-        /*offSpringString[0] = this.fuse(gamete[0], gamete[2]);
-        offSpringString[1] = this.fuse(gamete[0], gamete[3]);
-        offSpringString[2] = this.fuse(gamete[1], gamete[2]);
-        offSpringString[3] = this.fuse(gamete[1], gamete[3]);*/
         for (int z = 0; z < 4; z++) {                                                                                   //Iterates over the offSpringString count
             for (int gameteFuseBothWith0 = 2; gameteFuseBothWith0 < 4; gameteFuseBothWith0++) {                         //Iterates over both genes of p2
                 //offSpringString[z] = this.fuse(gamete[0], gamete[gameteFuse0]);                                               //Fuses [0] and the above two
@@ -74,6 +70,7 @@ public class MonoHybrid {
     private void generator(int maxLevels) {
         for(int i = 1; i < f; i++) {                                                                                //Iterates in the generations count
             for(int o = 1; o <= i * 2; o++) {                                                                           //Iterates in the offspring count of current gen
+
                 //adds mono-creatures to buffer array-list
                 /*
                 Possible prep-code:
