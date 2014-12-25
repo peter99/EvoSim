@@ -8,6 +8,8 @@ public class MonoCreature {                                                     
     public MonoCreature() {
         orgID++;
     }
+    private MonoCreature[] fusedWith;
+    private int fuses = 0;
 
     String dominantTrait;                                                                                               //The dom gene
     String recessiveTrait;                                                                                              //Possibly useless?
@@ -98,5 +100,21 @@ public class MonoCreature {                                                     
             System.out.println("Invalid gamete index passed");
         }
         return gamete;
+    }
+
+    protected void fusedWith(MonoCreature toAdd) {                                                                      //Manages the fuses history
+        fusedWith[fuses] = toAdd;                                                                                       //Adds object references of the fused to array
+        fuses++;                                                                                                        //Increments the # of fuses
+    }
+
+    protected boolean hasFused(MonoCreature verifyThis) {
+        boolean fusedWithIt = false;
+        fuseCheck: for(int k = 0; k < fuses; k++) {
+            if(verifyThis == fusedWith[k]) {
+                fusedWithIt = true;
+                break fuseCheck;
+            }
+        }
+        return fusedWithIt;
     }
 }

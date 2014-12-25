@@ -46,23 +46,7 @@ public class MonoHybrid {
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
-        /* I don't think we need this. Good to separate the different gene combinations though. Can be used to determine gene combos later */
-        /*for(int i = 0; i < 4; i++) {
-            if (Character.isUpperCase(offSpringString[i].charAt(0)) && Character.isUpperCase(offSpringString[i].charAt(1))) {
-                System.out.println(offSpringString[i]);
-            }
-        }
-        for(int i = 0; i < 4; i++) {
-            if (Character.isUpperCase(offSpringString[i].charAt(0)) && Character.isLowerCase(offSpringString[i].charAt(1))) {
-                System.out.println(offSpringString[i]);
-            }
-        }
-        for(int i = 0; i < 4; i++) {
-            if (Character.isLowerCase(offSpringString[i].charAt(0)) && Character.isLowerCase(offSpringString[i].charAt(1))) {
-                System.out.println(offSpringString[i]);
-            }
-        }*/
-        /* Optimization End */
+
     }
 
 
