@@ -46,13 +46,14 @@ public class MonoHybrid {
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
-
+        parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
+        parent2.fusedWith(parent1);
     }
 
 
 
     private void generator(int maxLevels) {
-        for(int i = 1; i < f; i++) {                                                                                //Iterates in the generations count
+        for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
             for(int o = 1; o <= i * 2; o++) {                                                                           //Iterates in the offspring count of current gen
 
                 //adds mono-creatures to buffer array-list

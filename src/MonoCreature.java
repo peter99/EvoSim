@@ -8,8 +8,7 @@ public class MonoCreature {                                                     
     public MonoCreature() {
         orgID++;
     }
-    private MonoCreature[] fusedWith;
-    private int fuses = 0;
+    private ArrayList<MonoCreature> fusedWith = new ArrayList<MonoCreature>();
 
     String dominantTrait;                                                                                               //The dom gene
     String recessiveTrait;                                                                                              //Possibly useless?
@@ -103,17 +102,13 @@ public class MonoCreature {                                                     
     }
 
     protected void fusedWith(MonoCreature toAdd) {                                                                      //Manages the fuses history
-        fusedWith[fuses] = toAdd;                                                                                       //Adds object references of the fused to array
-        fuses++;                                                                                                        //Increments the # of fuses
+        fusedWith.add(toAdd);                                                                                           //Adds object references of the fused to array
     }
 
-    protected boolean hasFused(MonoCreature verifyThis) {
+    protected boolean hasFused(MonoCreature verifyThis) {                                                               //Checks if this creature has fused with the passed creature
         boolean fusedWithIt = false;
-        fuseCheck: for(int k = 0; k < fuses; k++) {
-            if(verifyThis == fusedWith[k]) {
-                fusedWithIt = true;
-                break fuseCheck;
-            }
+        if (fusedWith.contains(verifyThis)) {
+            fusedWithIt = true;
         }
         return fusedWithIt;
     }
