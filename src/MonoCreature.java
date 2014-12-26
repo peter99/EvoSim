@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * Created by Peter and Amol on 12/7/2014.
+ * Created by Peter on 12/7/2014.
+ */
+/**
+ * Developers are Peter and Amol
  */
 public class MonoCreature {                                                                                             //This is a monocreature
     static int orgID = 1;                                                                                               //++ the UID of the creature

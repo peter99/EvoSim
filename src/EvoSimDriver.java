@@ -1,5 +1,9 @@
 /**
- * Created by Peter and Amol on 12/7/2014.
+ * Created by Peter on 12/7/2014.
+ */
+
+/**
+ * Developers are Peter and Amol
  */
 public class EvoSimDriver {
     public static void main(String[] args) {

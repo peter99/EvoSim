@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * Created by Peter and Amol on 12/7/2014.
+ * Created by Peter on 12/7/2014.
+ */
+/**
+ * Developers are Peter and Amol
  */
 public class MonoHybrid {
     private int f = 200;
@@ -54,7 +57,7 @@ public class MonoHybrid {
 
     private void generator(int maxLevels) {
         for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
-            for(int o = 1; o <= i * 2; o++) {                                                                           //Iterates in the offspring count of current gen
+            for(int o = 1; o <= i * 2; o++) {                                                                           //Iterates in the parent count of this gem
 
                 //adds mono-creatures to buffer array-list
                 /*
