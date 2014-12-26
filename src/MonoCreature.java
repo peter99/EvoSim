@@ -10,7 +10,6 @@ public class MonoCreature {                                                     
     static int orgID = 1;
 
     public MonoCreature() {                                                                                             //A blank constructor for debugging purposes
-        orgID++;
     }
     private ArrayList<MonoCreature> fusedWith = new ArrayList<MonoCreature>();
 

@@ -70,15 +70,20 @@ public class MonoHybrid {
 
     private void generator() {
         for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
-            ArrayList<MonoCreature> parentsThisGen = monoCreaturesTotalList.get(0);
-            System.out.println(parentsThisGen.size());
-            for (int j = 0; j < parentsThisGen.size(); j++) {
-                System.out.println(parentsThisGen.get(j).orgID());
-            }
+            System.out.println("In generation " + i);
+            ArrayList<MonoCreature> parentsLastsGen = monoCreaturesTotalList.get(i - 1);
+            //this method generates an error since the next generation is not yet in the main arrayList
 
-            /*for(int o = 1; o <= (i * 2); o++) {                                                                         //Iterates in the first parent count of this gem
+            for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                                                         //Iterates in the first parent count of this gem
+                System.out.println("First parent: " + firstParent);
+                MonoCreature firstC = parentsLastsGen.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
                 for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
-
+                    System.out.println("Second parent: " + second);
+                    MonoCreature secondC = parentsLastsGen.get(second);
+                    if (!(firstC.hasFused(secondC))) {
+                        this.fuseTwo(firstC, secondC);
+                        /*@TODO: resolve bugs*/
+                    }
                 }
                 //adds mono-creatures to buffer array-list
                 /*
@@ -92,8 +97,8 @@ public class MonoHybrid {
                 then the for loop iterates for next gen, does the same
 
                 * *
-                //@TODO
-            }*/
+                //@TODO*/
+            }
         }
     }
 
