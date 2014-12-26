@@ -7,18 +7,19 @@ import java.util.ArrayList;
  * Developers are Peter and Amol
  */
 public class MonoCreature {                                                                                             //This is a monocreature
-    static int orgID = 1;                                                                                               //++ the UID of the creature
-    public MonoCreature() {
+    static int orgID = 1;
+
+    public MonoCreature() {                                                                                             //A blank constructor for debugging purposes
         orgID++;
     }
     private ArrayList<MonoCreature> fusedWith = new ArrayList<MonoCreature>();
 
-    String dominantTrait;                                                                                               //The dom gene
-    String recessiveTrait;                                                                                              //Possibly useless?
-    ArrayList<String> gene = new ArrayList<String>();                                                                        //An arraylist that contains both the genes
-    String geneMakeup;                                                                                                  //String for easy export in correct format
-    String gamete1;                                                                                                     //You don't say?
-    String gamete2;
+    private String dominantTrait;                                                                                       //The dom gene
+    private String genotypeCharacter;                                                                                   //For comparing at the time of fusion
+    private ArrayList<String> gene = new ArrayList<String>();                                                                //An arraylist that contains both the genes
+    private String geneMakeup;                                                                                          //String for easy export in correct format
+    private String gamete1;                                                                                             //You don't say?
+    private String gamete2;
 
     public MonoCreature(String characterGene1, String characterGene2) {                                                 //Constructor: Takes in a gene set (Gx2)
         this.gene.add(characterGene1);                                                                                  //Adds two Strings to gene arraylist
@@ -26,18 +27,23 @@ public class MonoCreature {                                                     
         System.out.println("MonoCreature says this: ");
         System.out.println("Character genes initialized for " + orgID);
         orgID++;                                                                                                        //++ the id
-        System.out.println("OK to proceed: " + this.geneCheck());
+        boolean allSet = this.geneCheck();
+        System.out.println("OK to proceed: " + allSet);
+        if (!allSet) {
+            System.out.println("Wrong genotype entered! Retry!");
+            throw new IllegalArgumentException("Genotype error");
+        }
         this.setDominantTrait();                                                                                        //Sets dom
         System.out.println("Dom trait: " + dominantTrait);
         this.createGametes();                                                                                           //Creates two gametes by dividing the genes
         System.out.printf("G1: %s, G2: %s\n", gamete1, gamete2);
-        this.fuse(gamete1, gamete2);                                                                                    //Fixes capital issue
+        this.fuseSelfGametes(gamete1, gamete2);                                                                                    //Fixes capital issue
         System.out.println("Gene makeup: " + this.geneMakeup() + "\n");
     }
 
-    private void fuse(String gamete1, String gamete2) {                                                               //Fuses gametes and fixes capital issue
+    private void fuseSelfGametes(String gamete1, String gamete2) {                                                      //Fuses gametes and fixes capital issue
         String fusionResult = "";
-        if (gamete1.equals(gamete2)) {                                                                                   //If both upper case, then just do it
+        if (gamete1.equals(gamete2)) {                                                                                  //If both upper case, then just do it
             fusionResult = gamete1 + gamete2;
         }
         char g1 = gamete1.charAt(0);
@@ -54,7 +60,7 @@ public class MonoCreature {                                                     
         return geneMakeup;
     }
 
-    private boolean geneCheck() {                                                                                       //Checks integrity of genes and sets the dom
+    protected boolean geneCheck() {                                                                                     //Checks integrity of genes
         boolean isOK = false;
         int verifiedAll = 0;                                                                                            //def values set
         String g1 = this.gene.get(0).toLowerCase();
@@ -108,7 +114,7 @@ public class MonoCreature {                                                     
         fusedWith.add(toAdd);                                                                                           //Adds object references of the fused to array
     }
 
-    protected boolean hasFused(MonoCreature verifyThis) {                                                               //Checks if this creature has fused with the passed creature
+    boolean hasFused(MonoCreature verifyThis) {                                                               //Checks if this creature has fused with the passed creature
         boolean fusedWithIt = false;
         if (fusedWith.contains(verifyThis)) {
             fusedWithIt = true;

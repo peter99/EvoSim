@@ -11,9 +11,18 @@ public class EvoSimDriver {
     }
 
     private static void getOption() {
-        MonoCreature mc1 = new MonoCreature("Y", "y");                                                                  //A monocreature (with two genes of one character
-        MonoCreature mc2 = new MonoCreature("Y", "Y");                                                                  //Another one
-        MonoHybrid m = new MonoHybrid();
-        m.fuseTwo(mc1, mc2);
+        try {
+            MonoCreature mc1 = new MonoCreature("Q", "u");                                                                  //A monocreature (with two genes of one character
+            MonoCreature mc2 = new MonoCreature("Y", "y");                                                                  //Another one
+            MonoHybrid m = new MonoHybrid();
+            m.seedParents(mc1, mc2);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Something happened!");
+        } finally {
+            System.out.println("Aborting program. Retry.");
+        }
+
+
+
     }
 }

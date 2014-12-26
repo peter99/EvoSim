@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EvoSim:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EvoSim_jar</output-path>
+    <root id="archive" name="EvoSim.jar">
+      <element id="module-output" name="EvoSim" />
+    </root>
+  </artifact>
+</component>

@@ -8,9 +8,9 @@ import java.util.ArrayList;
  */
 public class MonoHybrid {
     private int f = 200;
-    ArrayList<MonoCreature> bufferMC = new ArrayList<MonoCreature>();                                                    //A buffer for temporarily storing monocreatures
-    ArrayList<ArrayList<MonoCreature>> alOfAl= new ArrayList<ArrayList<MonoCreature>>();                                //An arraylist of an arraylist of monocs
-    MonoCreature[][] mc = new MonoCreature[f][];                                                                        //Creates a 2-d array which will contain all the mono-creatures in following format: [gen][offspring#]
+    ArrayList<MonoCreature> bufferMC = new ArrayList<MonoCreature>();                                                              //A buffer for temporarily storing mono-creatures
+    ArrayList<ArrayList<MonoCreature>> alOfAl = new ArrayList<ArrayList<MonoCreature>>();                                                      //An arrayList of an arrayList of mono-creatures
+    MonoCreature[] seedCreatures = new MonoCreature[2];                                                                            //Creates an array to hold the input parents
 
     public MonoHybrid(int maxGenerationsToSee) {                                                                        //Most probable constructor, will take in max gen count
         this.f = maxGenerationsToSee;
@@ -20,7 +20,13 @@ public class MonoHybrid {
                                                                                                                         //initialize maxGen later, or cut it out. Use a max safe limit
     }
 
-    protected void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                //Generates the four DNA outcomes from two parents
+    protected void seedParents(MonoCreature parent1, MonoCreature parent2) {
+        seedCreatures[0] = parent1;
+        seedCreatures[1] = parent2;
+    }
+
+    private void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                //Generates the four DNA outcomes from two parents
+        //Change to private later, replace outside IO by the seed creatures
         String[] gamete = new String[4];
         MonoCreature[] offSpring = new MonoCreature[4];
         for(int i = 0; i < 4; i++) {
@@ -51,6 +57,10 @@ public class MonoHybrid {
         }
         parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
         parent2.fusedWith(parent1);
+    }
+
+    private void addToList() {
+        alOfAl.add(bufferMC);
     }
 
 
