@@ -30,7 +30,6 @@ public class MonoCreature {                                                     
         boolean allSet = this.geneCheck();
         System.out.println("OK to proceed: " + allSet);
         if (!allSet) {
-            System.out.println("Wrong genotype entered! Retry!");
             throw new IllegalArgumentException("Genotype error");
         }
         this.setDominantTrait();                                                                                        //Sets dom
@@ -120,5 +119,9 @@ public class MonoCreature {                                                     
             fusedWithIt = true;
         }
         return fusedWithIt;
+    }
+
+    protected int orgID() {
+        return orgID;
     }
 }

@@ -12,17 +12,14 @@ public class EvoSimDriver {
 
     private static void getOption() {
         try {
-            MonoCreature mc1 = new MonoCreature("Q", "u");                                                                  //A monocreature (with two genes of one character
-            MonoCreature mc2 = new MonoCreature("Y", "y");                                                                  //Another one
+            MonoCreature mc1 = new MonoCreature("Q", "Q");                                                                  //A monocreature (with two genes of one character
+            MonoCreature mc2 = new MonoCreature("q", "q");                                                                  //Another one
             MonoHybrid m = new MonoHybrid();
             m.seedParents(mc1, mc2);
         } catch (IllegalArgumentException e) {
-            System.out.println("Something happened!");
+            System.out.println("Wrong genotype entered!");
         } finally {
-            System.out.println("Aborting program. Retry.");
+            System.out.println("\n\nEnd of program");
         }
-
-
-
     }
 }

@@ -7,9 +7,9 @@ import java.util.ArrayList;
  * Developers are Peter and Amol
  */
 public class MonoHybrid {
-    private int f = 200;
+    private int f = 3;
     ArrayList<MonoCreature> bufferMC = new ArrayList<MonoCreature>();                                                              //A buffer for temporarily storing mono-creatures
-    ArrayList<ArrayList<MonoCreature>> alOfAl = new ArrayList<ArrayList<MonoCreature>>();                                                      //An arrayList of an arrayList of mono-creatures
+    ArrayList<ArrayList<MonoCreature>> monoCreaturesTotalList = new ArrayList<ArrayList<MonoCreature>>();                                                      //An arrayList of an arrayList of mono-creatures
     MonoCreature[] seedCreatures = new MonoCreature[2];                                                                            //Creates an array to hold the input parents
 
     public MonoHybrid(int maxGenerationsToSee) {                                                                        //Most probable constructor, will take in max gen count
@@ -23,9 +23,14 @@ public class MonoHybrid {
     protected void seedParents(MonoCreature parent1, MonoCreature parent2) {
         seedCreatures[0] = parent1;
         seedCreatures[1] = parent2;
+        bufferMC.add(parent1);
+        bufferMC.add(parent2);
+        monoCreaturesTotalList.add(bufferMC);
+        fuseTwo(parent1, parent2);
+        this.generator();
     }
 
-    private void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                //Generates the four DNA outcomes from two parents
+    private void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                  //Generates the four DNA outcomes from two parents
         //Change to private later, replace outside IO by the seed creatures
         String[] gamete = new String[4];
         MonoCreature[] offSpring = new MonoCreature[4];
@@ -51,7 +56,7 @@ public class MonoHybrid {
         }
         //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
         for(int childInt = 0; childInt < 4; childInt++) {
-            System.out.println("Adding " + offSpring[childInt].geneMakeup());
+            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " to buffer AL");
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
@@ -60,15 +65,21 @@ public class MonoHybrid {
     }
 
     private void addToList() {
-        alOfAl.add(bufferMC);
+        monoCreaturesTotalList.add(bufferMC);
     }
 
-
-
-    private void generator(int maxLevels) {
+    private void generator() {
         for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
-            for(int o = 1; o <= i * 2; o++) {                                                                           //Iterates in the parent count of this gem
+            ArrayList<MonoCreature> parentsThisGen = monoCreaturesTotalList.get(0);
+            System.out.println(parentsThisGen.size());
+            for (int j = 0; j < parentsThisGen.size(); j++) {
+                System.out.println(parentsThisGen.get(j).orgID());
+            }
 
+            /*for(int o = 1; o <= (i * 2); o++) {                                                                         //Iterates in the first parent count of this gem
+                for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
+
+                }
                 //adds mono-creatures to buffer array-list
                 /*
                 Possible prep-code:
@@ -76,13 +87,13 @@ public class MonoHybrid {
                 create their four off-springs through fuseTwo method, which also adds them to buffer
                 do the same for all other parents
                 now add the buffer's content to the main ArrayList, in current gen. Possibly like:
-                alOfAl.add(bufferMC);
-                this will add bufferMC to current alOfAl index, ie this generation
+                monoCreaturesTotalList.add(bufferMC);
+                this will add bufferMC to current monoCreaturesTotalList index, ie this generation
                 then the for loop iterates for next gen, does the same
 
-                * */
+                * *
                 //@TODO
-            }
+            }*/
         }
     }
 
