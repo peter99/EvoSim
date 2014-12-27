@@ -31,32 +31,33 @@ public class MonoHybrid {
     }
 
     private void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                  //Generates the four DNA outcomes from two parents
-        //Change to private later, replace outside IO by the seed creatures
         String[] gamete = new String[4];
         MonoCreature[] offSpring = new MonoCreature[4];
         for(int i = 0; i < 4; i++) {
             if((i == 0)||(i == 1)) {
                 gamete[i] = parent1.getGamete(i);
+                System.out.print("From p1: ");
             } else if((i == 2)||(i == 3)) {
                 gamete[i] = parent2.getGamete(i - 2);
+                System.out.print("From p2: ");
             }
             System.out.println("Gamete " + i + " is " + gamete[i]);
         }
+        //This is buggy, resolve
+        /*@TODO*/
         for (int z = 0; z < 4; z++) {                                                                                   //Iterates over the offSpringString count
             for (int gameteFuseBothWith0 = 2; gameteFuseBothWith0 < 4; gameteFuseBothWith0++) {                         //Iterates over both genes of p2
-                //offSpringString[z] = this.fuse(gamete[0], gamete[gameteFuse0]);                                               //Fuses [0] and the above two
                 offSpring[z] = new MonoCreature(gamete[0], gamete[gameteFuseBothWith0]);                                //Creates two new MonoCreatures which are a result of gene1 of parent1 and gene1,2 of parent2
                 z++;
             }
             for (int gameteFuseBothWith1 = 2; gameteFuseBothWith1 < 4; gameteFuseBothWith1++) {                         //Iterates over both genes of p2
-                //offSpringString[z] = this.fuse(gamete[1], gamete[gameteFuseBothWith1]);                                               //This time for [1] and the two above
                 offSpring[z] = new MonoCreature(gamete[1], gamete[gameteFuseBothWith1]);                                //Creates two new MonoCreatures which are a result of gene2 of p1 and g1,2 of p2
                 z++;
             }
         }
         //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
         for(int childInt = 0; childInt < 4; childInt++) {
-            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " to buffer AL");
+            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " (" + offSpring[childInt].orgID() + ") to buffer AL");
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
@@ -81,6 +82,7 @@ public class MonoHybrid {
                     System.out.println("Second parent: " + second);
                     MonoCreature secondC = parentsLastsGen.get(second);
                     if (!(firstC.hasFused(secondC))) {
+                        System.out.println("Fusing " + firstC + " and " + secondC);
                         this.fuseTwo(firstC, secondC);
                         /*@TODO: resolve bugs*/
                     }
