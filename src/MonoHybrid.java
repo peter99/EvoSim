@@ -20,7 +20,7 @@ public class MonoHybrid {
                                                                                                                         //initialize maxGen later, or cut it out. Use a max safe limit
     }
 
-    protected void seedParents(MonoCreature parent1, MonoCreature parent2) {
+    protected void seedParents(MonoCreature parent1, MonoCreature parent2) {                                            //@TODO: include with constructor
         seedCreatures[0] = parent1;
         seedCreatures[1] = parent2;
         bufferMC.add(parent1);
@@ -31,13 +31,19 @@ public class MonoHybrid {
     }
 
     private void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                  //Generates the four DNA outcomes from two parents
+        /**@javadoc
+         * Fuses two parents' gametes to obtain 4 off-springs.
+         * Working:
+         *
+         * */
+
         String[] gamete = new String[4];
-        MonoCreature[] offSpring = new MonoCreature[4];
-        for(int i = 0; i < 4; i++) {
-            if((i == 0)||(i == 1)) {
+        MonoCreature[] offSpring = new MonoCreature[4];                                                                 //Temporarily holds the offspring creatures
+        for (int i = 0; i < 4; i++) {                                                                                    //Initializes the gametes array
+            if ((i == 0) || (i == 1)) {                                                                                    //The first two gametes
                 gamete[i] = parent1.getGamete(i);
                 System.out.print("From p1: ");
-            } else if((i == 2)||(i == 3)) {
+            } else if ((i == 2) || (i == 3)) {                                                                             //The second two gametes
                 gamete[i] = parent2.getGamete(i - 2);
                 System.out.print("From p2: ");
             }
