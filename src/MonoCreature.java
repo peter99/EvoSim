@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Developers are Peter and Amol
  */
 public class MonoCreature {                                                                                             //This is a monocreature
-    static int orgID = 1;
+    static int orgID = 0;
 
     public MonoCreature() {                                                                                             //A blank constructor for debugging purposes
     }
@@ -23,9 +23,9 @@ public class MonoCreature {                                                     
     public MonoCreature(String characterGene1, String characterGene2) {                                                 //Constructor: Takes in a gene set (Gx2)
         this.gene.add(characterGene1);                                                                                  //Adds two Strings to gene arraylist
         this.gene.add(characterGene2);
+        orgID++;                                                                                                        //++ the id
         System.out.println("MonoCreature says this: ");
         System.out.println("Character genes initialized for " + orgID);
-        orgID++;                                                                                                        //++ the id
         boolean allSet = this.geneCheck();
         System.out.println("OK to proceed: " + allSet);
         if (!allSet) {
