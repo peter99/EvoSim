@@ -44,7 +44,9 @@ public class MonoHybrid {
             System.out.println("Gamete " + i + " is " + gamete[i]);
         }
         //This is buggy, resolve
-        /*@TODO*/
+        //till then, use this basic one:
+
+        /*@TODO: resolve this*/
         for (int z = 0; z < 4; z++) {                                                                                   //Iterates over the offSpringString count
             for (int gameteFuseBothWith0 = 2; gameteFuseBothWith0 < 4; gameteFuseBothWith0++) {                         //Iterates over both genes of p2
                 offSpring[z] = new MonoCreature(gamete[0], gamete[gameteFuseBothWith0]);                                //Creates two new MonoCreatures which are a result of gene1 of parent1 and gene1,2 of parent2
