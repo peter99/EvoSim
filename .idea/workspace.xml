@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee35fb43-5c31-463e-be9d-e38b8281215a" name="Default" comment="Most bugs fixed.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonoHybrid.java" afterPath="$PROJECT_DIR$/src/MonoHybrid.java" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/EvoSimDriver.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/EvoSimDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/EvoSimDriver.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/EvoSimDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EvolutionSimulator.iws" />
@@ -465,7 +503,7 @@
       <workItem from="1420026191302" duration="824000" />
       <workItem from="1420033477537" duration="5713000" />
       <workItem from="1420115031682" duration="3614000" />
-      <workItem from="1420125573570" duration="4713000" />
+      <workItem from="1420125573570" duration="4940000" />
     </task>
     <task id="LOCAL-00001" summary="Reduced code length.">
       <created>1419521608387</created>
@@ -545,15 +583,21 @@
       <option name="project" value="LOCAL" />
       <updated>1420130263908</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Most bugs fixed.">
+      <created>1420130299056</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1420130299056</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54327000" />
+    <option name="totallyTimeSpent" value="54554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -565,7 +609,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19236112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
