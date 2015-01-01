@@ -1,0 +1,17 @@
+/* I don't think we need this. Good to separate the different gene combinations though. Can be used to determine gene combos later */
+/* Taken from MonoHybrid class, method fuseTwo() */
+        for(int i = 0; i < 4; i++) {
+            if (Character.isUpperCase(offSpringString[i].charAt(0)) && Character.isUpperCase(offSpringString[i].charAt(1))) {
+                System.out.println(offSpringString[i]);
+            }
+        }
+        for(int i = 0; i < 4; i++) {
+            if (Character.isUpperCase(offSpringString[i].charAt(0)) && Character.isLowerCase(offSpringString[i].charAt(1))) {
+                System.out.println(offSpringString[i]);
+            }
+        }
+        for(int i = 0; i < 4; i++) {
+            if (Character.isLowerCase(offSpringString[i].charAt(0)) && Character.isLowerCase(offSpringString[i].charAt(1))) {
+                System.out.println(offSpringString[i]);
+            }
+        }
