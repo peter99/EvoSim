@@ -1,51 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee35fb43-5c31-463e-be9d-e38b8281215a" name="Default" comment="Most bugs fixed.">
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\EvoSimDriver.class" afterPath="" />
+    <list default="true" id="ee35fb43-5c31-463e-be9d-e38b8281215a" name="Default" comment="Debugging">
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoHybrid.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Amol\IdeaProjects\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/EvoSimDriver.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/EvoSimDriver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/EvoSimDriver.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/EvoSimDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoHybrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonoHybrid.java" afterPath="$PROJECT_DIR$/src/MonoHybrid.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EvolutionSimulator.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EvoSimDriver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EvoSimDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EvoSimDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.48833033" vertical-offset="0" max-vertical-offset="557">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -78,14 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonoHybrid.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MonoHybrid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.21518987" vertical-offset="1173" max-vertical-offset="1989">
-              <caret line="65" column="79" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1138" max-vertical-offset="2142">
+              <caret line="113" column="148" selection-start-line="113" selection-start-column="148" selection-end-line="113" selection-end-column="148" />
               <folding>
-                <element signature="e#4517#4518#0" expanded="true" />
-                <element signature="e#4569#4570#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +76,7 @@
       <file leaf-file-name="MonoCreature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MonoCreature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2193">
               <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
               <folding />
             </state>
@@ -127,10 +109,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -230,8 +212,121 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="859" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/FAQs.md</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
   <component name="RunManager" selected="Application.EvoSimDriver">
     <configuration default="false" name="EvoSimDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="EvoSimDriver" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -254,6 +349,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -307,11 +403,23 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -326,6 +434,7 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -462,6 +571,25 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.EvoSimDriver" />
     </list>
@@ -504,6 +632,7 @@
       <workItem from="1420033477537" duration="5713000" />
       <workItem from="1420115031682" duration="3614000" />
       <workItem from="1420125573570" duration="4940000" />
+      <workItem from="1420136240718" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="Reduced code length.">
       <created>1419521608387</created>
@@ -593,29 +722,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54554000" />
+    <option name="totallyTimeSpent" value="56318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31012657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19236112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19219653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39895698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -652,7 +784,8 @@
     <MESSAGE value="More bugs encountered" />
     <MESSAGE value="Resolving bugs" />
     <MESSAGE value="Most bugs fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Most bugs fixed." />
+    <MESSAGE value="Debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugging" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -671,8 +804,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,8 +832,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,8 +860,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,8 +888,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1683">
           <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,8 +916,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,8 +944,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,8 +972,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1122">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,8 +1000,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -903,8 +1028,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,8 +1056,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -961,8 +1084,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -990,8 +1112,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1019,8 +1140,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,8 +1168,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1077,8 +1196,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1106,8 +1224,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1136,23 +1253,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EvoSimDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1138" max-vertical-offset="2142">
+          <caret line="113" column="148" selection-start-line="113" selection-start-column="148" selection-end-line="113" selection-end-column="148" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
+    <entry file="file://$PROJECT_DIR$/src/EvoSimDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.21518987" vertical-offset="1173" max-vertical-offset="1989">
-          <caret line="65" column="79" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.48833033" vertical-offset="0" max-vertical-offset="557">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

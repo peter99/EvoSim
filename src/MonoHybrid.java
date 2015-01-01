@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Created by Peter on 12/7/2014.
@@ -67,6 +68,7 @@ public class MonoHybrid {
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
+        this.debugMC();
         parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
         parent2.fusedWith(parent1);
     }
@@ -107,6 +109,15 @@ public class MonoHybrid {
                 //@TODO*/
             }
         }
+    }
+
+    private void debugMC() {                                                                                            // Debugging; Can be removed
+        System.out.println("Debug Start");
+        Iterator arrayListIterator = bufferMC.iterator();
+        while (arrayListIterator.hasNext()) {
+            System.out.println(arrayListIterator.next());
+        }
+        System.out.println("Debug End");
     }
 
     protected void nextGen() {
