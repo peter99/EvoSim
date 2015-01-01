@@ -63,7 +63,7 @@ public class MonoHybrid {
         //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
         for(int childInt = 0; childInt < 4; childInt++) {
             System.out.println("for " + childInt);
-            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " +  to buffer AL");
+            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " to buffer AL");
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
