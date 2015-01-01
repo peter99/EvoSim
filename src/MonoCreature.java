@@ -8,6 +8,7 @@ import java.util.ArrayList;
  */
 public class MonoCreature {                                                                                             //This is a monocreature
     private static int orgID = 0;
+    protected int uniqueRID = (int) (Math.random() * 1000000000);                                                       //A random ID for each org, will be most probably unique. Maybe add a uniqueness checker?
 
     public MonoCreature() {                                                                                             //A blank constructor for debugging purposes
     }

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class MonoHybrid {
     private int f = 3;
     ArrayList<MonoCreature> bufferMC = new ArrayList<MonoCreature>();                                                              //A buffer for temporarily storing mono-creatures
-    ArrayList<ArrayList<MonoCreature>> monoCreaturesTotalList = new ArrayList<ArrayList<MonoCreature>>();                                                      //An arrayList of an arrayList of mono-creatures
-    MonoCreature[] seedCreatures = new MonoCreature[2];                                                                            //Creates an array to hold the input parents
+    ArrayList<ArrayList<MonoCreature>> monoCreaturesTotalList = new ArrayList<ArrayList<MonoCreature>>();                                     //An arrayList of an arrayList of mono-creatures
+    MonoCreature[] seedCreatures = new MonoCreature[2];                                                                 //Creates an array to hold the input parents
 
     public MonoHybrid(int maxGenerationsToSee) {                                                                        //Most probable constructor, will take in max gen count
         this.f = maxGenerationsToSee;
@@ -27,7 +27,7 @@ public class MonoHybrid {
         bufferMC.add(parent2);
         monoCreaturesTotalList.add(bufferMC);
         fuseTwo(parent1, parent2);
-        //this.generator();
+        this.generator();
     }
 
     private void fuseTwo(MonoCreature parent1, MonoCreature parent2) {                                                  //Generates the four DNA outcomes from two parents
@@ -40,6 +40,7 @@ public class MonoHybrid {
          *          Working of this:
          *              Iterates from 0 to 3 (0, 1, 2, 3)
          *              In each iteration, it will add a gamete by the method
+         *      Now four creatures are created via these four gametes.
          * */
 
         String[] gamete = new String[4];
@@ -62,7 +63,7 @@ public class MonoHybrid {
         //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
         for(int childInt = 0; childInt < 4; childInt++) {
             System.out.println("for " + childInt);
-            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " (" + offSpring[childInt].orgID() + ") to buffer AL");
+            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " +  to buffer AL");
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
@@ -98,8 +99,7 @@ public class MonoHybrid {
                 take first two parents
                 create their four off-springs through fuseTwo method, which also adds them to buffer
                 do the same for all other parents
-                now add the buffer's content to the main ArrayList, in current gen. Possibly like:
-                monoCreaturesTotalList.add(bufferMC);
+                now add the buffer's content to the main ArrayList, in current gen. Via above addToList method
                 this will add bufferMC to current monoCreaturesTotalList index, ie this generation
                 then the for loop iterates for next gen, does the same
 
