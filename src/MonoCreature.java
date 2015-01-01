@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Developers are Peter and Amol
  */
 public class MonoCreature {                                                                                             //This is a monocreature
-    static int orgID = 0;
+    private static int orgID = 0;
 
     public MonoCreature() {                                                                                             //A blank constructor for debugging purposes
     }

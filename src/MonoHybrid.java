@@ -55,22 +55,10 @@ public class MonoHybrid {
             System.out.println("Gamete " + i + " is " + gamete[i]);
         }
         System.out.println("\n");
-        //till then, use this basic one:
-        offSpring[0] = new MonoCreature(gamete[0], gamete[2]);
+        offSpring[0] = new MonoCreature(gamete[0], gamete[2]);                                                          //Clean and better at improving performance
         offSpring[1] = new MonoCreature(gamete[0], gamete[3]);
         offSpring[2] = new MonoCreature(gamete[1], gamete[2]);
         offSpring[3] = new MonoCreature(gamete[1], gamete[3]);
-        /*@TODO: resolve this*/
-        /*for (int z = 0; z < 4; z++) {                                                                                   //Iterates over the offSpringString count
-            for (int gameteFuseBothWith0 = 2; gameteFuseBothWith0 < 4; gameteFuseBothWith0++) {                         //Iterates over both genes of p2
-                offSpring[z] = new MonoCreature(gamete[0], gamete[gameteFuseBothWith0]);                                //Creates two new MonoCreatures which are a result of gene1 of parent1 and gene1,2 of parent2
-                z++;
-            }
-            for (int gameteFuseBothWith1 = 2; gameteFuseBothWith1 < 4; gameteFuseBothWith1++) {                         //Iterates over both genes of p2
-                offSpring[z] = new MonoCreature(gamete[1], gamete[gameteFuseBothWith1]);                                //Creates two new MonoCreatures which are a result of gene2 of p1 and g1,2 of p2
-                z++;
-            }
-        }*/
         //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
         for(int childInt = 0; childInt < 4; childInt++) {
             System.out.println("for " + childInt);
