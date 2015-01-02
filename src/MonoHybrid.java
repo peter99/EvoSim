@@ -90,18 +90,20 @@ public class MonoHybrid {
          * A: See above
          * Q: Why is hasNotFused method not working?
          * A: I don't know
+         * Q: What is lastGenCreatures arrayList?
+         * A: Self-explanatory, actually. They are the last gen's creatures which will act as this gen's parents.
          * */
 
         for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
             System.out.println("In generation " + i);
-            ArrayList<MonoCreature> parentsLastsGen = monoCreaturesTotalList.get(i - 1);
+            ArrayList<MonoCreature> lastGenCreatures = monoCreaturesTotalList.get(i - 1);
             //this method generates an error since the next generation is not yet in the main arrayList
             for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                          //Iterates in the first parent count of this gem
                 System.out.println("First parent: " + firstParent);
-                MonoCreature firstC = parentsLastsGen.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
+                MonoCreature firstC = lastGenCreatures.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
                 for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
                     System.out.println("Second parent: " + second);
-                    MonoCreature secondC = parentsLastsGen.get(second);
+                    MonoCreature secondC = lastGenCreatures.get(second);
                     if (firstC.hasNotFused(secondC)) {
                         System.out.println("Fusing " + firstC + " and " + secondC);
                         this.fuseTwo(firstC, secondC);
