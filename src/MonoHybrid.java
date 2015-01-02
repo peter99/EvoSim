@@ -122,6 +122,8 @@ public class MonoHybrid {
             }
         }
 
+
+
         /* START: Do Not Delete this Code. Just comment it out */
 
         /*addToList();
@@ -142,81 +144,21 @@ public class MonoHybrid {
                         this.fuseTwo(firstC, secondC);
                         break;
                     }
-                    break;
                 }
-                //this.debugMCNew();
-                //addToList();
-                System.out.println("GENERATION 1 DONE.");
-            } else if (i == 2) {
-                System.out.println("In generation: 2");
-                for (int z = 2; z < arrayOfMonoCreatures.size(); z++) {
-                    for (int y = arrayOfMonoCreatures.size() - 1; y > z; y--) {
-                        MonoCreature firstC = arrayOfMonoCreatures.get(z);
-                        MonoCreature secondC = arrayOfMonoCreatures.get(y);
-                        this.fuseTwo(firstC, secondC);
-                        break;
-                    }
-                    break;
-                }
-                //addToList();
-                System.out.println("GENERATION 2 DONE.");
-                this.debugMCNew();
-                //this.debugMC();
-                //this.debugMCTL();
-            } else if (i == 3) {                                                                                        //Working!!!
-                System.out.println("In generation: 3");
-                this.debugMCNew();
-                for (int z = 6; z < arrayOfMonoCreatures.size(); z++) {
-                    for (int y = arrayOfMonoCreatures.size() - 1; y > z; y--) {
-                        MonoCreature firstC = arrayOfMonoCreatures.get(z);
-                        MonoCreature secondC = arrayOfMonoCreatures.get(y);
-                        this.fuseTwo(firstC, secondC);
-                    }
-                }
-                //addToList();
-                System.out.println("GENERATION 3 DONE.");
-                this.debugMCNew();
-                //this.debugMC();
-                //this.debugMCTL();
-                //System.out.println("3 NOT DONE");
             }
-            arrayOfMonoCreatures.clear();
-        }
-
-        //ArrayList<MonoCreature> lastGen = monoCreaturesTotalList.get(0);
-        /*int i;
-        for (i = 0; i < lastGen.size(); i++) {
-            System.out.println(lastGen.get(i).geneMakeup());
-        }
-        if (lastGen.get(0).hasNotFused(lastGen.get(1))) {
-            System.out.println("Fusing...");
-            this.fuseTwo(lastGen.get(0), lastGen.get(1));
-
+            System.out.println("Finished generation " + generation + " with " + bufferMC.size() + " creatures, and a total of " + totalCreaturesEver());
             this.addToList();
-        }
-        ArrayList<MonoCreature> ab;
-        for (int j = 0; j < monoCreaturesTotalList.size(); j++) {
-             ab = monoCreaturesTotalList.get(j);
-            for (int k = 0; k < ab.size(); k++) {
-                System.out.println(ab.get(k).geneMakeup());     //Generates an exception
-            }
-            System.out.println("Next gen");
 
-        }
-        System.out.println();*/
-        //this is debug*/
-
-
+        }*/
     }
 
-    private void debugMCNew() {                                                                                            // Debugging; Can be removed
-        System.out.println("Debug Start");
-        //Prints contents of bufferMC
-        Iterator arrayListIterator = arrayOfMonoCreatures.iterator();
-        while (arrayListIterator.hasNext()) {
-            System.out.println(arrayListIterator.next());
+    private int totalCreaturesEver() {
+        int creatures = 0;
+        for (int i = 0; i < monoCreaturesTotalList.size(); i++) {
+            ArrayList<MonoCreature> q = monoCreaturesTotalList.get(i);
+            creatures = creatures + q.size();
         }
-        System.out.println("Debug End");
+        return creatures;
     }
 
     private void debugMC() {                                                                                            // Debugging; Can be removed
@@ -229,19 +171,7 @@ public class MonoHybrid {
         System.out.println("Debug End");
     }
 
-    private void debugMCTL() {                                                                                            // Debugging; Can be removed
-        System.out.println("Debug Start");
-        //Prints contents of bufferMC
-        Iterator arrayListIterator = monoCreaturesTotalList.iterator();
-        while (arrayListIterator.hasNext()) {
-            System.out.println(arrayListIterator.next());
-        }
-        System.out.println("Debug End");
-    }
-
-
     protected void nextGen() {
         f++;
     }
-
 }
