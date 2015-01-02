@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee35fb43-5c31-463e-be9d-e38b8281215a" name="Default" comment="Resolving problems">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoHybrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EvolutionSimulator.iws" />
@@ -476,7 +472,7 @@
       <workItem from="1420125573570" duration="4940000" />
       <workItem from="1420136240718" duration="1800000" />
       <workItem from="1420173628966" duration="1116000" />
-      <workItem from="1420185129493" duration="930000" />
+      <workItem from="1420185129493" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="Reduced code length.">
       <created>1419521608387</created>
@@ -574,11 +570,17 @@
       <option name="project" value="LOCAL" />
       <updated>1420185788308</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Resolving problems">
+      <created>1420186077106</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1420186077106</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58400000" />
+    <option name="totallyTimeSpent" value="58434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
