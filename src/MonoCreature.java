@@ -113,12 +113,12 @@ public class MonoCreature {                                                     
         fusedWith.add(toAdd);                                                                                           //Adds object references of the fused to array
     }
 
-    boolean hasFused(MonoCreature verifyThis) {                                                               //Checks if this creature has fused with the passed creature
-        boolean fusedWithIt = false;
+    protected boolean hasNotFused(MonoCreature verifyThis) {                                                               //Checks if this creature has fused with the passed creature
+        boolean notFusedWithIt = true;
         if (fusedWith.contains(verifyThis)) {
-            fusedWithIt = true;
+            notFusedWithIt = false;
         }
-        return fusedWithIt;
+        return notFusedWithIt;
     }
 
     protected int orgID() {

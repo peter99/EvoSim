@@ -68,7 +68,7 @@ public class MonoHybrid {
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
-        this.debugMC();
+        //this.debugMC();
         parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
         parent2.fusedWith(parent1);
     }
@@ -78,18 +78,31 @@ public class MonoHybrid {
     }
 
     private void generator() {
+        /**
+         * @javadoc
+         * FAQs:
+         * Q: What does i do?
+         * A: Iterates in the generation count.
+         * Q: Why is firstParent = i * 2?
+         * A: Because two parents give rise to four creatures. Increase in the next gen's count is by a power of 2.
+         *    Since it began from 2 creatures, doing x2 will mean same as ^2
+         * Q: Why is secondParent = i * 2?
+         * A: See above
+         * Q: Why is hasNotFused method not working?
+         * A: I don't know
+         * */
+
         for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
             System.out.println("In generation " + i);
             ArrayList<MonoCreature> parentsLastsGen = monoCreaturesTotalList.get(i - 1);
             //this method generates an error since the next generation is not yet in the main arrayList
-
-            for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                                                         //Iterates in the first parent count of this gem
+            for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                          //Iterates in the first parent count of this gem
                 System.out.println("First parent: " + firstParent);
                 MonoCreature firstC = parentsLastsGen.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
                 for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
                     System.out.println("Second parent: " + second);
                     MonoCreature secondC = parentsLastsGen.get(second);
-                    if (!(firstC.hasFused(secondC))) {
+                    if (firstC.hasNotFused(secondC)) {
                         System.out.println("Fusing " + firstC + " and " + secondC);
                         this.fuseTwo(firstC, secondC);
                         /*@TODO: resolve bugs*/
