@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -131,8 +132,20 @@ public class MonoHybrid {
         if (lastGen.get(0).hasNotFused(lastGen.get(1))) {
             System.out.println("Fusing...");
             this.fuseTwo(lastGen.get(0), lastGen.get(1));
-            System.out.println();
-        }//this is debug
+
+            this.addToList();
+        }
+        ArrayList<MonoCreature> ab;
+        for(int j = 0; j <= monoCreaturesTotalList.size(); j++) {
+             ab = monoCreaturesTotalList.get(j);
+            for(int k = 0; k <= ab.size(); k++) {
+                System.out.println(ab.get(k).geneMakeup());     //Generates an exception
+            }
+            System.out.println("Next gen");
+
+        }
+        System.out.println();
+        //this is debug
 
     }
 
