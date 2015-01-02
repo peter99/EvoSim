@@ -91,7 +91,7 @@ public class MonoHybrid {
          * Q: Why is hasNotFused method not working?
          * A: I don't know
          * Q: What is lastGenCreatures arrayList?
-         * A: Self-explanatory, actually. They are the last gen's creatures which will act as this gen's parents.
+         * A: Rather self-explanatory. They are the last gen's creatures which will act as this gen's parents.
          * */
 
         for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
