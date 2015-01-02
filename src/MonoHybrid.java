@@ -68,7 +68,8 @@ public class MonoHybrid {
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
-        this.debugMC();
+        //this.debugMC();
+        monoCreaturesTotalList.add(bufferMC);                                                                           //Bug Fix! #Yay!
         parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
         parent2.fusedWith(parent1);
     }
