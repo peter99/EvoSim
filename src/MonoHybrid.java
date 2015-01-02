@@ -40,7 +40,7 @@ public class MonoHybrid {
          *      Then initializes the gamete array by enquiring about each gamete through the getGamete(int whichGamete) method
          *          Working of this:
          *              Iterates from 0 to 3 (0, 1, 2, 3)
-         *              In each iteration, it will add a gamete by the method
+         *              In each iteration, it will add a gamete to the array by the method (getGamete(int whichOne))
          *      Now four creatures are created via these four gametes.
          * */
 
@@ -68,8 +68,7 @@ public class MonoHybrid {
             bufferMC.add(offSpring[childInt]);
             System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
         }
-        //this.debugMC();
-        monoCreaturesTotalList.add(bufferMC);                                                                           //Bug Fix! #Yay!
+        this.debugMC();
         parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
         parent2.fusedWith(parent1);
     }
@@ -114,6 +113,7 @@ public class MonoHybrid {
 
     private void debugMC() {                                                                                            // Debugging; Can be removed
         System.out.println("Debug Start");
+        //Prints contents of bufferMC
         Iterator arrayListIterator = bufferMC.iterator();
         while (arrayListIterator.hasNext()) {
             System.out.println(arrayListIterator.next());
