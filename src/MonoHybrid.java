@@ -136,9 +136,9 @@ public class MonoHybrid {
             this.addToList();
         }
         ArrayList<MonoCreature> ab;
-        for(int j = 0; j <= monoCreaturesTotalList.size(); j++) {
+        for (int j = 0; j < monoCreaturesTotalList.size(); j++) {
              ab = monoCreaturesTotalList.get(j);
-            for(int k = 0; k <= ab.size(); k++) {
+            for (int k = 0; k < ab.size(); k++) {
                 System.out.println(ab.get(k).geneMakeup());     //Generates an exception
             }
             System.out.println("Next gen");
