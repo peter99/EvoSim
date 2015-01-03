@@ -94,24 +94,23 @@ public class MonoHybrid {
          * A: Rather self-explanatory. They are the last gen's creatures which will act as this gen's parents.
          * */
 
-        //for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
-        //System.out.println("In generation " + i);
-        //ArrayList<MonoCreature> lastGenCreatures = monoCreaturesTotalList.get(i - 1);
+        /*for(int i = 1; i <= f; i++) {                                                                                    //Iterates in the generations count
+            System.out.println("In generation " + i);
+            ArrayList<MonoCreature> lastGenCreatures = monoCreaturesTotalList.get(i - 1);
             //this method generates an error since the next generation is not yet in the main arrayList
-        //for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                          //Iterates in the first parent count of this gem
-        //System.out.println("First parent: " + firstParent);
-        //MonoCreature firstC = lastGenCreatures.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
-        //for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
-        //System.out.println("Second parent: " + second);
-        //MonoCreature secondC = lastGenCreatures.get(second);
-        //if (firstC.hasNotFused(secondC)) {
-        //System.out.println("Fusing " + firstC + " and " + secondC);
-        //this.fuseTwo(firstC, secondC);
-        ///*@TODO: resolve bugs*/
-        //}
-        //}
-                //adds mono-creatures to buffer array-list
-                /*
+            for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                          //Iterates in the first parent count of this gem
+                System.out.println("First parent: " + firstParent);
+                MonoCreature firstC = lastGenCreatures.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
+                for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
+                    System.out.println("Second parent: " + second);
+                    MonoCreature secondC = lastGenCreatures.get(second);
+                    if (firstC.hasNotFused(secondC)) {
+                        System.out.println("Fusing " + firstC + " and " + secondC);
+                        this.fuseTwo(firstC, secondC);
+                        *//*@TODO: resolve bugs*//*
+                    }
+                }                                                                                                       //  adds mono-creatures to buffer array-list
+                *//*
                 Possible prep-code:
                 take first two parents
                 create their four off-springs through fuseTwo method, which also adds them to buffer
@@ -121,11 +120,67 @@ public class MonoHybrid {
                 then the for loop iterates for next gen, does the same
 
                 * *
-                //@TODO*/
-        //}
-        //}
-        ArrayList<MonoCreature> lastGen = monoCreaturesTotalList.get(0);
-        int i;
+                @TODO*//*
+            }
+        }*/
+
+        /* START: Do Not Delete this Code. Just comment it out */
+
+        addToList();
+
+        for (int i = 1; i <= f; i++) {
+            System.out.println("In generation: " + i);
+            ArrayList<MonoCreature> arrayOfMonoCreatures = new ArrayList<MonoCreature>();
+            for (int j = 0; j < monoCreaturesTotalList.size(); j++) {
+                ArrayList<MonoCreature> arrayListNew = monoCreaturesTotalList.get(j);
+                arrayOfMonoCreatures.add(arrayListNew.get(j));
+            }
+            if (i == 1) {
+                System.out.println("In generation: 1");
+                for (int z = 0; z < monoCreaturesTotalList.size(); z++) {
+                    for (int y = monoCreaturesTotalList.size() - 1; y >= z; y--) {
+                        MonoCreature firstC = arrayOfMonoCreatures.get(z);
+                        MonoCreature secondC = arrayOfMonoCreatures.get(y);
+                        this.fuseTwo(firstC, secondC);
+                        break;
+                    }
+                    break;
+                }
+                addToList();
+                System.out.println("GENERATION 1 DONE.");
+            } else if (i == 2) {
+                System.out.println("In generation: 2");
+                for (int z = 2; z < monoCreaturesTotalList.size(); z++) {
+                    for (int y = monoCreaturesTotalList.size() - 1; y >= z; y--) {
+                        MonoCreature firstC = arrayOfMonoCreatures.get(z);
+                        MonoCreature secondC = arrayOfMonoCreatures.get(y);
+                        this.fuseTwo(firstC, secondC);
+                    }
+                }
+                addToList();
+                System.out.println("GENERATION 2 DONE.");
+                //this.debugMC();
+                //this.debugMCTL();
+            } else if (i == 3) {                                                                                        //Not  Working
+                System.out.println("In generation: 3");
+                for (int z = 6; z < monoCreaturesTotalList.size(); z++) {
+                    for (int y = monoCreaturesTotalList.size() - 1; y >= z; y--) {
+                        MonoCreature firstC = arrayOfMonoCreatures.get(z);
+                        MonoCreature secondC = arrayOfMonoCreatures.get(y);
+                        this.fuseTwo(firstC, secondC);
+                    }
+                }
+                addToList();
+                System.out.println("GENERATION 3 DONE.");
+                //this.debugMC();
+                //this.debugMCTL();
+                //System.out.println("3 NOT DONE");
+            }
+            arrayOfMonoCreatures.clear();
+        }
+
+        //ArrayList<MonoCreature> lastGen = monoCreaturesTotalList.get(0);
+        /*int i;
         for (i = 0; i < lastGen.size(); i++) {
             System.out.println(lastGen.get(i).geneMakeup());
         }
@@ -144,7 +199,7 @@ public class MonoHybrid {
             System.out.println("Next gen");
 
         }
-        System.out.println();
+        System.out.println();*/
         //this is debug
 
     }
@@ -159,7 +214,18 @@ public class MonoHybrid {
         System.out.println("Debug End");
     }
 
+    private void debugMCTL() {                                                                                            // Debugging; Can be removed
+        System.out.println("Debug Start");
+        //Prints contents of bufferMC
+        Iterator arrayListIterator = monoCreaturesTotalList.iterator();
+        while (arrayListIterator.hasNext()) {
+            System.out.println(arrayListIterator.next());
+        }
+        System.out.println("Debug End");
+    }
+
     protected void nextGen() {
         f++;
     }
+
 }
