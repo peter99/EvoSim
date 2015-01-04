@@ -2,40 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee35fb43-5c31-463e-be9d-e38b8281215a" name="Default" comment="Most bugs fixed. One major exists.">
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\EvoSimDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\MonoHybrid.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\MonoCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter\Documents\GitHub\EvoSim\out\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\production\EvoSim\obsoleteCode.bak" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/artifacts/EvoSim_jar/EvoSim.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" afterPath="$PROJECT_DIR$/out/production/EvoSim/artifacts/EvoSim_jar/EvoSim.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/EvoSimDriver.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/EvoSimDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FAQs.md" afterPath="$PROJECT_DIR$/FAQs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/production/EvoSim/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/MonoCreature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoCreature.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoCreature.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/MonoHybrid.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EvoSimDriver.java" afterPath="$PROJECT_DIR$/src/EvoSimDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonoCreature.java" afterPath="$PROJECT_DIR$/src/MonoCreature.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonoHybrid.java" afterPath="$PROJECT_DIR$/src/MonoHybrid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/obsoleteCode.bak" afterPath="$PROJECT_DIR$/out/production/EvoSim/production/EvoSim/obsoleteCode.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/obsoleteCode.bak" afterPath="$PROJECT_DIR$/src/obsoleteCode.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EvolutionSimulator.iws" />
@@ -66,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/EvoSimDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -75,19 +51,14 @@
       <file leaf-file-name="MonoHybrid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.4655647" vertical-offset="0" max-vertical-offset="3026">
-              <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.19283746" vertical-offset="1662" max-vertical-offset="3128">
+              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding>
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#9869#9870#0" expanded="true" />
+                <element signature="e#9888#9889#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,9 +76,12 @@
       <file leaf-file-name="MonoCreature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MonoCreature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2193">
-              <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="2363">
+              <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+              <folding>
+                <element signature="e#7846#7847#0" expanded="true" />
+                <element signature="e#7874#7875#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,11 +102,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MonoCreature.java" />
         <option value="$PROJECT_DIR$/src/obsoleteCode.bak" />
+        <option value="$PROJECT_DIR$/src/MonoCreature.java" />
         <option value="$PROJECT_DIR$/src/EvoSimDriver.java" />
         <option value="$PROJECT_DIR$/src/MonoHybrid.java" />
-        <option value="$PROJECT_DIR$/FAQs.md" />
       </list>
     </option>
   </component>
@@ -186,6 +159,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,8 +195,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,9 +518,7 @@
       <workItem from="1420272373258" duration="1875000" />
       <workItem from="1420274438672" duration="8020000" />
       <workItem from="1420353955435" duration="1249000" />
-      <workItem from="1420355300954" duration="395000" />
-      <workItem from="1420372003590" duration="387000" />
-      <workItem from="1420382163058" duration="40000" />
+      <workItem from="1420382371305" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="Reduced code length.">
       <created>1419521608387</created>
@@ -693,23 +664,11 @@
       <option name="project" value="LOCAL" />
       <updated>1420355198556</updated>
     </task>
-    <task id="LOCAL-00025" summary="Most bugs fixed. One major exists.">
-      <created>1420355364706</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1420355364706</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Most bugs fixed. One major exists.">
-      <created>1420372161948</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1420372161948</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77345000" />
+    <option name="totallyTimeSpent" value="77340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -717,6 +676,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285528" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -724,6 +684,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31012657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -731,16 +692,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3976532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3976532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285528" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -817,24 +776,72 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
-          <line>156</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
-          <line>157</line>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="42" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
-          <line>160</line>
+          <line>107</line>
           <properties />
-          <option name="timeStamp" value="44" />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MonoHybrid.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -855,7 +862,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,7 +875,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1263" max-vertical-offset="1989">
           <caret line="104" column="166" selection-start-line="104" selection-start-column="166" selection-end-line="104" selection-end-column="166" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,7 +894,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,7 +907,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1768">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,7 +926,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1683">
           <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -911,7 +939,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +958,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -935,7 +971,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1394">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +990,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,7 +1003,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1394">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1022,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1122">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +1035,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,7 +1054,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,7 +1067,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1394">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +1086,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1099,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="872" max-vertical-offset="1428">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,7 +1118,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,7 +1131,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="872" max-vertical-offset="1428">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,7 +1150,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,7 +1163,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="872" max-vertical-offset="1428">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,7 +1182,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,7 +1195,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="872" max-vertical-offset="1428">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,7 +1214,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,7 +1227,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1190">
           <caret line="54" column="142" selection-start-line="54" selection-start-column="142" selection-end-line="54" selection-end-column="142" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,7 +1246,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1151,7 +1259,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1190">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,7 +1278,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,7 +1291,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1139">
           <caret line="40" column="147" selection-start-line="40" selection-start-column="147" selection-end-line="40" selection-end-column="147" />
-          <folding />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,7 +1310,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,11 +1327,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MonoCreature.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1467" max-vertical-offset="2227">
-          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="739">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FAQs.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="739">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1219,34 +1349,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MonoCreature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="2363">
+          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding>
+            <element signature="e#7846#7847#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EvoSimDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FAQs.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MonoHybrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4655647" vertical-offset="0" max-vertical-offset="3026">
-          <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.19283746" vertical-offset="1662" max-vertical-offset="3128">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#9869#9870#0" expanded="true" />
+            <element signature="e#9888#9889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

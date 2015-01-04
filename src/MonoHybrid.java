@@ -17,10 +17,6 @@ public class MonoHybrid {
         this.f = maxGenerationsToSee;
     }
 
-    protected MonoHybrid() {                                                                                            //another possible constructor.
-                                                                                                                        //initialize maxGen later, or cut it out. Use a max safe limit
-    }
-
     protected void seedParents(MonoCreature parent1, MonoCreature parent2) {                                            //@TODO: include with constructor
         seedCreatures[0] = parent1;
         seedCreatures[1] = parent2;
@@ -42,34 +38,43 @@ public class MonoHybrid {
          *              In each iteration, it will add a gamete to the array by the method (getGamete(int whichOne))
          *      Now four creatures are created via these four gametes.
          * */
-
         String[] gamete = new String[4];
         MonoCreature[] offSpring = new MonoCreature[4];                                                                 //Temporarily holds the offspring creatures
-        for (int i = 0; i < 4; i++) {                                                                                    //Initializes the gametes array
-            if ((i == 0) || (i == 1)) {                                                                                    //The first two gametes
-                gamete[i] = parent1.getGamete(i);
-                System.out.print("From p1: ");
-            } else if ((i == 2) || (i == 3)) {                                                                             //The second two gametes
-                gamete[i] = parent2.getGamete(i - 2);
-                System.out.print("From p2: ");
+        if (parent1.hasFused(parent2)) {
+            System.out.println("Parents have already fused.");
+            System.out.println("Returning");
+            return;
+        } else if (parent1 == parent2) {
+            System.out.println("Both parents are same");
+            System.out.println("Returning");
+            return;
+        } else if ((parent1.hasNotFused(parent2)) || (parent2.hasNotFused(parent1))) {
+            for (int i = 0; i < 4; i++) {                                                                                    //Initializes the gametes array
+                if ((i == 0) || (i == 1)) {                                                                                    //The first two gametes
+                    gamete[i] = parent1.getGamete(i);
+                    System.out.print("From p1: ");
+                } else if ((i == 2) || (i == 3)) {                                                                             //The second two gametes
+                    gamete[i] = parent2.getGamete(i - 2);
+                    System.out.print("From p2: ");
+                }
+                System.out.println("Gamete " + i + " is " + gamete[i]);
             }
-            System.out.println("Gamete " + i + " is " + gamete[i]);
+            System.out.println("\n");
+            offSpring[0] = new MonoCreature(gamete[0], gamete[2]);                                                          //Clean and better at improving performance
+            offSpring[1] = new MonoCreature(gamete[0], gamete[3]);
+            offSpring[2] = new MonoCreature(gamete[1], gamete[2]);
+            offSpring[3] = new MonoCreature(gamete[1], gamete[3]);
+            //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
+            for (int childInt = 0; childInt < 4; childInt++) {
+                System.out.println("for " + childInt);
+                System.out.println("Adding " + offSpring[childInt].geneMakeup() + " to buffer AL");
+                bufferMC.add(offSpring[childInt]);
+                System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
+            }
+            //this.debugMC();
+            parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
+            parent2.fusedWith(parent1);                                                                                     //This prevents them from refusing
         }
-        System.out.println("\n");
-        offSpring[0] = new MonoCreature(gamete[0], gamete[2]);                                                          //Clean and better at improving performance
-        offSpring[1] = new MonoCreature(gamete[0], gamete[3]);
-        offSpring[2] = new MonoCreature(gamete[1], gamete[2]);
-        offSpring[3] = new MonoCreature(gamete[1], gamete[3]);
-        //4 off-springs from 2 parents created. Now send them to bufferMC arrayList.
-        for(int childInt = 0; childInt < 4; childInt++) {
-            System.out.println("for " + childInt);
-            System.out.println("Adding " + offSpring[childInt].geneMakeup() + " to buffer AL");
-            bufferMC.add(offSpring[childInt]);
-            System.out.println(offSpring[childInt].geneMakeup() + " added\nTotal length of the buffer array-list: " + bufferMC.size() + "\n");
-        }
-        //this.debugMC();
-        parent1.fusedWith(parent2);                                                                                     //Adds parents to each others' lists
-        parent2.fusedWith(parent1);
     }
 
     private void addToList() {
@@ -109,7 +114,8 @@ public class MonoHybrid {
                 MonoCreature a = lastGenCreatures.get(parentOneCreatureInArray);
                 for (parentTwoCreatureInArray = 0; parentTwoCreatureInArray < totalLengthOfPreviousGeneration; parentTwoCreatureInArray++) {
                     MonoCreature b = lastGenCreatures.get(parentTwoCreatureInArray);
-                    if ((a.hasNotFused(b)) && (a != b)) {
+                    this.fuseTwo(a, b);
+                    /*if ((a.hasNotFused(b)) && (a != b)) {
                         System.out.println("a and b have not fused, for a = " + a + " and b = " + b);
                         System.out.println("Fusing them...");
                         this.fuseTwo(a, b);
@@ -117,15 +123,11 @@ public class MonoHybrid {
                         System.out.println("a and b are same");
                     } else {
                         System.out.println("a and b have already fused");
-                    }
+                    }*/
                 }
             }
         }
-
-
-
-        /* START: Do Not Delete this Code. Just comment it out */
-
+        /* Amol's code */
         /*addToList();
 
         for (int i = 1; i <= f; i++) {

@@ -121,6 +121,14 @@ public class MonoCreature {                                                     
         return notFusedWithIt;
     }
 
+    protected boolean hasFused(MonoCreature verifyThis) {
+        boolean hasFused = false;
+        if (fusedWith.contains(verifyThis)) {
+            hasFused = true;
+        }
+        return hasFused;
+    }
+
     protected int orgID() {
         return orgID;
     }
