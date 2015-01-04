@@ -8,7 +8,7 @@ import java.util.Iterator;
  * Developers are Peter and Amol
  */
 public class MonoHybrid {
-    private int f = 3;
+    private int f;
     ArrayList<MonoCreature> bufferMC = new ArrayList<MonoCreature>();                                                              //A buffer for temporarily storing mono-creatures
     ArrayList<ArrayList<MonoCreature>> monoCreaturesTotalList = new ArrayList<ArrayList<MonoCreature>>();                                     //An arrayList of an arrayList of mono-creatures
     MonoCreature[] seedCreatures = new MonoCreature[2];                                                                 //Creates an array to hold the input parents
@@ -26,7 +26,7 @@ public class MonoHybrid {
         seedCreatures[1] = parent2;
         bufferMC.add(parent1);
         bufferMC.add(parent2);
-        monoCreaturesTotalList.add(bufferMC);
+        this.addToList();
         this.generator();
     }
 
@@ -74,66 +74,91 @@ public class MonoHybrid {
 
     private void addToList() {
         monoCreaturesTotalList.add(bufferMC);
+        bufferMC = new ArrayList<MonoCreature>();
     }
 
     private void generator() {
         /**
          * @javadoc
+         * Working of this method:
+         *    A number of generations are provided. Last generation's creatures are taken from the ArrayList (monoCreaturesTotalList).
+         *    These creatures act as parents for this generation/iteration. Total size of this ArrayList of the parents are taken.
+         *    Two ints, one for each parent, are created. They are used to iterate over the creatures of that generation.
+         *    MonoCreatures a and b are two parents from each for-loop. They are independent of each other. b increments first. When
+         *    all the third-level iterations in one second-level iterations run out, naturally the next second-level iteration
+         *    takes place. Inside the third-level for-loop, the three if-else-if conditions (two, rather) determine whether to fuse
+         *    the two creatures or not. It is determined by two conditions in total: if the creatures have not fused with each other, and they are not the
+         *    same, only then can they fuse.
+         *
          * FAQs:
-         * Q: What does i do?
-         * A: Iterates in the generation count.
-         * Q: Why is firstParent = i * 2?
-         * A: Because two parents give rise to four creatures. Increase in the next gen's count is by a power of 2.
-         *    Since it began from 2 creatures, doing x2 will mean same as ^2
-         * Q: Why is secondParent = i * 2?
-         * A: See above
          * Q: Why is hasNotFused method not working?
-         * A: I don't know
+         * A: It works now. The issue was not with the method, but that the same creature fused with itself whenever the
+         *    two for-loops came on the same iteration (1 and 1, 2 and 2 and so on...)
          * Q: What is lastGenCreatures arrayList?
          * A: Rather self-explanatory. They are the last gen's creatures which will act as this gen's parents.
          * */
-
-        //for(int i = 1; i < f; i++) {                                                                                    //Iterates in the generations count
-        //System.out.println("In generation " + i);
-        //ArrayList<MonoCreature> lastGenCreatures = monoCreaturesTotalList.get(i - 1);
-            //this method generates an error since the next generation is not yet in the main arrayList
-        //for (int firstParent = 1; firstParent <= (i * 2); firstParent++) {                                          //Iterates in the first parent count of this gem
-        //System.out.println("First parent: " + firstParent);
-        //MonoCreature firstC = lastGenCreatures.get(firstParent);                                                 //Note that firstParent has got nothing to do with the arrayList. Its just an index
-        //for(int second = 1; second <= (i *2); second++) {                                                       //Iterates in the second parent count
-        //System.out.println("Second parent: " + second);
-        //MonoCreature secondC = lastGenCreatures.get(second);
-        //if (firstC.hasNotFused(secondC)) {
-        //System.out.println("Fusing " + firstC + " and " + secondC);
-        //this.fuseTwo(firstC, secondC);
-        ///*@TODO: resolve bugs*/
-        //}
-        //}
-                //adds mono-creatures to buffer array-list
-                /*
-                Possible prep-code:
-                take first two parents
-                create their four off-springs through fuseTwo method, which also adds them to buffer
-                do the same for all other parents
-                now add the buffer's content to the main ArrayList, in current gen. Via above addToList method
-                this will add bufferMC to current monoCreaturesTotalList index, ie this generation
-                then the for loop iterates for next gen, does the same
-
-                * *
-                //@TODO*/
-        //}
-        //}
-        ArrayList<MonoCreature> lastGen = monoCreaturesTotalList.get(0);
-        int i;
-        for (i = 0; i < lastGen.size(); i++) {
-            System.out.println(lastGen.get(i).geneMakeup());
+        int generation;
+        int maxGen = f;
+        ArrayList<MonoCreature> lastGenCreatures;
+        for (generation = 1; generation < maxGen; generation++) {                                                             //The generations...
+            lastGenCreatures = monoCreaturesTotalList.get(generation - 1);
+            int totalLengthOfPreviousGeneration = lastGenCreatures.size();
+            int parentOneCreatureInArray;
+            int parentTwoCreatureInArray;
+            for (parentOneCreatureInArray = 0; parentOneCreatureInArray < totalLengthOfPreviousGeneration; parentOneCreatureInArray++) {
+                MonoCreature a = lastGenCreatures.get(parentOneCreatureInArray);
+                for (parentTwoCreatureInArray = 0; parentTwoCreatureInArray < totalLengthOfPreviousGeneration; parentTwoCreatureInArray++) {
+                    MonoCreature b = lastGenCreatures.get(parentTwoCreatureInArray);
+                    if ((a.hasNotFused(b)) && (a != b)) {
+                        System.out.println("a and b have not fused, for a = " + a + " and b = " + b);
+                        System.out.println("Fusing them...");
+                        this.fuseTwo(a, b);
+                    } else if (a == b) {
+                        System.out.println("a and b are same");
+                    } else {
+                        System.out.println("a and b have already fused");
+                    }
+                }
+            }
         }
-        if (lastGen.get(0).hasNotFused(lastGen.get(1))) {
-            System.out.println("Fusing...");
-            this.fuseTwo(lastGen.get(0), lastGen.get(1));
-            System.out.println();
-        }//this is debug
 
+
+
+        /* START: Do Not Delete this Code. Just comment it out */
+
+        /*addToList();
+
+        for (int i = 1; i <= f; i++) {
+            System.out.println("In generation: " + i);
+            ArrayList<MonoCreature> arrayListNew = monoCreaturesTotalList.get(0);
+            for (int z = 0; z < arrayListNew.size(); z++) {
+                arrayOfMonoCreatures.add(arrayListNew.get(z));
+            }
+
+            if (i == 1) {
+                System.out.println("In generation: 1");
+                for (int z = 0; z < arrayOfMonoCreatures.size(); z++) {
+                    for (int y = arrayOfMonoCreatures.size() - 1; y >= z; y--) {
+                        MonoCreature firstC = arrayOfMonoCreatures.get(z);
+                        MonoCreature secondC = arrayOfMonoCreatures.get(y);
+                        this.fuseTwo(firstC, secondC);
+                        break;
+                    }
+                }
+            }
+            System.out.println("Finished generation " + generation + " with " + bufferMC.size() + " creatures, and a total of " + totalCreaturesEver());
+            this.addToList();
+
+        }*/
+    }
+
+    private int totalCreaturesEver() {
+        int creatures = 0;
+        for (int i = 0; i < monoCreaturesTotalList.size(); i++) {
+            ArrayList<MonoCreature> q = monoCreaturesTotalList.get(i);
+            creatures = creatures + q.size();
+        }
+        return creatures;
     }
 
     private void debugMC() {                                                                                            // Debugging; Can be removed
