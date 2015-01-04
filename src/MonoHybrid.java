@@ -127,7 +127,7 @@ public class MonoHybrid {
 
         /* START: Do Not Delete this Code. Just comment it out */
 
-        addToList();
+        /*addToList();
 
         for (int i = 1; i <= f; i++) {
             System.out.println("In generation: " + i);
@@ -207,7 +207,7 @@ public class MonoHybrid {
 
         }
         System.out.println();*/
-        //this is debug
+        //this is debug*/
 
 
     }
